@@ -21,10 +21,11 @@
 
 ## 📋 Prerequisites
 
-- Node.js 16+ 
+- Node.js 16+
 - npm or yarn
 
 ## 🔧 Installation
+
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/mini-browser.git
@@ -35,25 +36,31 @@ npm install
 ```
 
 ## 🚀 Development
+
 ```bash
 # Run in development mode
 npm run electron:dev
 ```
 
 This will:
+
 1. Start the Vite dev server
 2. Compile TypeScript for Electron
 3. Launch the Electron app with hot reload
 
 ## 📦 Build
+
 ```bash
 # Build for production
 npm run electron:build
 ```
 
+In case build fails due to permission issues, open terminal with admininstrator privilages and run the command.
+
 The distributable will be created in the `dist` folder.
 
 ## 📁 Project Structure
+
 ```
 mini-browser/
 ├── electron/
@@ -74,14 +81,14 @@ mini-browser/
 
 ## 🎯 Available Scripts
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start Vite dev server |
-| `npm run build` | Build React app for production |
-| `npm run build:electron` | Compile Electron TypeScript |
-| `npm run electron:dev` | Run app in development mode |
-| `npm run electron:build` | Build production executable |
-| `npm run lint` | Run ESLint |
+| Command                  | Description                    |
+| ------------------------ | ------------------------------ |
+| `npm run dev`            | Start Vite dev server          |
+| `npm run build`          | Build React app for production |
+| `npm run build:electron` | Compile Electron TypeScript    |
+| `npm run electron:dev`   | Run app in development mode    |
+| `npm run electron:build` | Build production executable    |
+| `npm run lint`           | Run ESLint                     |
 
 ---
 
